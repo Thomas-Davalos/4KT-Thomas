@@ -1,0 +1,7 @@
+def saludar_usuario(nombre):
+    saludo_final = f"Hola, {nombre}! Bienvenido a python."
+    return saludo_final
+
+# llamada a la función
+mensaje = saludar_usuario("Alejandro")
+print(mensaje)
