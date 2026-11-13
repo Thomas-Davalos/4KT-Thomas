@@ -1,0 +1,8 @@
+while True:
+    try: 
+        edad = int(input("Introduce tu edad: "))
+        break
+    except ValueError:
+        print("Debes introducir un número entero.") 
+
+print(f"validación exitosa. Tienes {edad} años.")
